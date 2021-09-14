@@ -1,0 +1,57 @@
+*****************
+Ruby
+*****************
+
+Installation notes in below link:
+https://jekyllrb.com/docs/installation/macos/
+
+
+
+> ruby -v => check ruby version
+> rbenv => use rbenv to manage multiple Ruby versions
+> rbenv -l => list all stable ruby versions
+> rbenv -L => list all available ruby versions =>
+
+
+- Install package : atom runner (atom > preferences)
+> control + r => run the atom runner (drag it to the right)
+
+- running ruby file from terminal
+> cd <ruby program location>
+> cd /Users/vishwanathanmeyyappan/Desktop/V/Ruby/practice_1
+> ruby hello_world.rb
+
+- IRB (interactive ruby) is a playground like sandbox
+- open terminal >
+> irb
+
+> puts("hello world")   => prints the given text
+> exit => quit IRB
+> quit => quit IRB
+
+output methods
+================
+- puts method creates a line break at the end after printing the string.
+- print method does not creates a line break at the end after printing the string.
+- p method creates a line break at the end after printing the string within double quotes
+
+
+Variables
+===========
+- variable is a reference to an object
+- variable is sometimes called as pointers or identifiers
+
+nil
+===
+- nil is an object of type nothing
+- in IRB if we use puts "hello", then we get nil as return value
+- puts nil , then we get blank space and nil
+- p nil , then we get nil and nil
+
+
+gets string method
+===================
+- used to collect the input from User
+- by default the collected datatype is string
+- chomp method is used to remove linebreak in gets method
+- gets.chomp
