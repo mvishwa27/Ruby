@@ -1,3 +1,3 @@
 # Ruby
 
-<h3>Practice and Learn Ruby here</h3>
+<h3>Practice and Learn Ruby here.</h3>
